@@ -1,0 +1,48 @@
+div.GodOfWar {
+  background-image: url("../../images/Rectangle 2.png");
+  background-size: cover;
+  position: relative;
+  /* width: 525px;
+  height: 248px; */
+  /* overflow: hidden; */
+}
+#imgName,
+#GodOfWar,
+div.GodOfWar p{
+  position: absolute;
+}
+
+div.GodOfWar #imgName {
+  width: 450px;
+    right: -100px;
+    top: -70px;
+}
+#GodOfWar {
+  bottom: 0%;
+  border-radius: 0px 0px 0px 44px;
+  width: 300px;
+  left: 0px;
+  transition: 0.3s;
+
+}
+div.GodOfWar:hover #GodOfWar {
+  bottom: 0%;
+  border-radius: 0px 0px 0px 44px;
+  width: 380px;
+  left: 0px;
+}
+div.GodOfWar p {
+    left: 19.38%;
+    right: 4.47%;
+    top: 71.94%;
+    bottom: 8.06%;
+    
+    /* font-family: 'Gilroy'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}

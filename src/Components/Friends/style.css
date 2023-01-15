@@ -1,0 +1,19 @@
+.Friends{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+}
+.Friends h3{
+/* margin: 30px 0; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #000000;
+}
+.Friends img{
+    margin-top: 20px;
+    min-width: 200px;
+}
