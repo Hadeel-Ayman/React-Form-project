@@ -1,4 +1,4 @@
-/* eslint-disable array-callback-return */
+
 import "./styles.css";
 import { BsInfoCircleFill } from "react-icons/bs";
 function PlansComp(props) {
@@ -49,24 +49,3 @@ function PlansComp(props) {
 }
 
 export default PlansComp;
-
-/*
-            <PlansComp title="Free" price="0.00" fetures={[1,1,1,0,0,0,0,0,0]}/>
-            <PlansComp title="Basic" price="7.99" fetures={[1,1,1,1,1,1,1,0,0]}/>
-            <PlansComp title="Premium" price="19.99" fetures={[1,1,1,1,1,1,1,1,1]} join/>
-
-
-              props.features.map((x)=>{(
-
-                        
-                        <div className="d-flex justify-content-center">
-                            <p>{x===1?<span>✔</span>:<span>❌</span>}
-                                {features[0]}     
-                            </p>
-                        </div>
-            (<BsInfoCircleFill/>)
-            )
-            }
-            )
-
-*/
